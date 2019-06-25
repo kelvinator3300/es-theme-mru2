@@ -28,24 +28,28 @@ was the greatest teacher.
 
 			<carousel name="systemcarousel">
 				<type>horizontal</type>
+				<pos>0 0.19</pos>
+				<size>1 0.504</size>
 				<color>000000</color>
-				<logoScale>1.6</logoScale>
+				<logoScale>1.5</logoScale>
 				<maxLogoCount>3</maxLogoCount>
 			</carousel>
 		
 			<text name="systemInfo">
-				<backgroundColor>000000</backgroundColor>
-				<color>cc0088</color>
-				<fontSize>0.036</fontSize>
+				<backgroundColor>00000000</backgroundColor>
+				<pos>0 0.66</pos>
+				<size>1 0.02</size>
+				<color>808080</color>
+				<fontSize>0.028</fontSize>
 			</text>
 
-		<image name="background_middle" extra="true">
+		<!-- image name="background_middle" extra="true">
 			<path>./_inc/images/bg_color.png</path>
 			<origin>0 0</origin>
 			<pos>0 0.187</pos>
 			<size>1 0.51</size>
 			<color>000000</color>
-		</image>
+		</image -->
 
 		<image name="background_help" extra="true">
 			<path>./_inc/images/bg_color.png</path>
@@ -62,8 +66,8 @@ was the greatest teacher.
 	<view name="system, basic, detailed, video, grid">
 
 		<helpsystem name="help">
-			<textColor>cc0088</textColor>
-			<iconColor>cc0088</iconColor>
+			<textColor>808080</textColor>
+			<iconColor>808080</iconColor>
 			<origin>0.5 1</origin>
 			<pos>0.5 0.998</pos>
 			<fontSize>0.028</fontSize>
@@ -86,7 +90,7 @@ was the greatest teacher.
 		<image name="logo">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.09</pos>
-			<maxSize>0.4 0.11</maxSize>
+			<maxSize>0.34 0.1</maxSize>
 		</image>
 
 		<textlist name="gamelist">
@@ -96,7 +100,7 @@ was the greatest teacher.
 			<secondaryColor>FF8800</secondaryColor>
 			<origin>0.5 0</origin>
 			<pos>0.5 0.205</pos>
-			<size>0.6 0.74</size>
+			<size>0.48 0.74</size>
 			<fontSize>0.035</fontSize>
 		</textlist>
 
@@ -130,7 +134,7 @@ was the greatest teacher.
 
 		<image name="background" extra="true">
 <!-- You can change the background image by putting another image in the following path and editing the following line. -->
-			<path>./_inc/images/bg3.png</path>
+			<path>./_inc/images/detailed.png</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -141,7 +145,7 @@ was the greatest teacher.
 		<image name="logo">
 			<origin>0.5 0.5</origin>
 			<pos>0.24 0.09</pos>
-			<maxSize>0.4 0.11</maxSize>
+			<maxSize>0.34 0.1</maxSize>
 		</image>
 
 		<textlist name="gamelist">
@@ -285,7 +289,7 @@ was the greatest teacher.
 		<image name="md_marquee">
 			<pos>0.72 0.09</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.38 0.16</maxSize>
+			<maxSize>0.34 0.1</maxSize>
 		</image>
 
  		<video name="md_video">
